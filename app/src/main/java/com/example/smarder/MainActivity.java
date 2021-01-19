@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     ImageView bgApp;
     LinearLayout texthome, menus;
-    private CardView notes_card, calendar_card, about_card, settings_card;
+    private CardView notes_card, about_card, settings_card;
     Animation frombottom;
 
     @Override
@@ -28,14 +28,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         bgApp = findViewById(R.id.bgApp);
         texthome = findViewById(R.id.texthome);
         menus = findViewById(R.id.menus);
-        calendar_card = findViewById(R.id.Calendar_card);
-        notes_card = findViewById(R.id.NoteList_card);
+        notes_card = findViewById(R.id.ReminderList_card);
         about_card = findViewById(R.id.About_card);
         settings_card = findViewById(R.id.Settings_card);
 
         settings_card.setOnClickListener(this);
         about_card.setOnClickListener(this);
-        calendar_card.setOnClickListener(this);
         notes_card.setOnClickListener(this);
 
         texthome.startAnimation(frombottom);
@@ -54,13 +52,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent moveSettings = new Intent(this,SettingsActivity.class);
                 startActivity(moveSettings);
                 break;
-            case R.id.NoteList_card :
+            case R.id.ReminderList_card:
                 Intent moveNoteList = new Intent(this, ReminderList.class);
                 startActivity(moveNoteList);
-                break;
-            case R.id.Calendar_card :
-                Intent moveCalendar = new Intent(this, CalendarActivity.class);
-                startActivity(moveCalendar);
                 break;
             default:
                 break;
