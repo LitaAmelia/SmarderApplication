@@ -14,8 +14,6 @@ Komponen yang terdapat dalam Aplikasi
 
 User Interface
 
-![tam6](https://user-images.githubusercontent.com/48617704/105368364-09f46b00-5c34-11eb-8a2c-4591308dbe41.png)  ![tam1](https://user-images.githubusercontent.com/48617704/105367723-53908600-5c33-11eb-8f5a-35a82c832e34.png)
-
-![tam2](https://user-images.githubusercontent.com/48617704/105367822-728f1800-5c33-11eb-8ea5-7d020aaaf6cf.png)  ![tam3](https://user-images.githubusercontent.com/48617704/105367870-80dd3400-5c33-11eb-8fa9-801af5471357.png)
+![tam1](https://user-images.githubusercontent.com/48617704/105367723-53908600-5c33-11eb-8f5a-35a82c832e34.png)  ![tam2](https://user-images.githubusercontent.com/48617704/105367822-728f1800-5c33-11eb-8ea5-7d020aaaf6cf.png)  
 
 ![tam4](https://user-images.githubusercontent.com/48617704/105367955-95b9c780-5c33-11eb-9b85-7186e867d7bd.png)  ![tam5](https://user-images.githubusercontent.com/48617704/105367972-9bafa880-5c33-11eb-9bbe-1ee423e53fa7.png)
